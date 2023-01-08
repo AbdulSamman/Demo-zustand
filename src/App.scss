@@ -38,6 +38,7 @@ body {
             width: 98%;
             display: block;
             margin-bottom: 0.5rem;
+            border-radius: 5px;
           }
 
           button {
@@ -49,10 +50,11 @@ body {
       section.dataArea {
         h2 {
           margin: 0 0 1rem 0;
+          color: rgb(94, 116, 217);
         }
 
         .infoBox {
-          background-color: #777;
+          background-color: rgba(#777, 60%);
           padding: 1rem;
           width: 28rem;
           border-radius: 1rem;
@@ -64,6 +66,7 @@ body {
 
           .theValue {
             color: $dataColor;
+            word-break: break-all;
           }
 
           div.row {
